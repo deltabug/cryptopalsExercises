@@ -7,7 +7,7 @@ from typing_extensions import ParamSpecArgs
 from binascii import hexlify, unhexlify
 
 
-with open('Exercise Text Files/4.txt') as datafile:
+with open('../Exercise Text Files/4.txt') as datafile:
     cipherlsit = [unhexlify(line.strip()) for line in datafile]
 
 # def bxor(a,b):
